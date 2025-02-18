@@ -1,26 +1,28 @@
 import React from "react";
+import LocomotiveScroll from "locomotive-scroll";
 
 const Footer = () => {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
     <div
       data-scroll
       data-scroll-section
-      className="relative px-[3.922vw] py-10 w-full bg-zinc-800 z-10"
+      className="relative  rounded-tl-3xl rounded-tr-3xl px-[3.922vw] py-20 w-full  bg-zinc-800 z-10 overflow-hidden"
     >
-      <div className="flex items-start justify-between">
-        <div className="w-1/2 h-screen  flex flex-col justify-between">
+      <div className="flex items-start  justify-between">
+        <div className="w-1/2 h-screen   flex flex-col justify-between">
           <div>
-            <h1 className="font-['Founders_Grotesk_X_Condensed'] leading-[7vw] uppercase text-[9vw]">
+            <h1 className="font-['Founders_Grotesk_X_Condensed'] leading-[7vw] uppercase text-[9vw] font-medium">
               EYE-
             </h1>
-            <h1 className="font-['Founders_Grotesk_X_Condensed'] leading-[7vw] uppercase text-[9vw]">
+            <h1 className="font-['Founders_Grotesk_X_Condensed'] leading-[7vw] uppercase text-[9vw] font-medium">
               OPENING
             </h1>
           </div>
         </div>
         <div className="w-1/2 h-full ">
           <div className="flex flex-col gap-10">
-            <h1 className="font-['FoundersGrotesk'] leading-[7vw] uppercase text-[9vw]">
+            <h1 className="font-['Founders_Grotesk_X_Condensed'] leading-[7vw] uppercase text-[9vw] font-medium pr-10">
               PRESENTATIONS
             </h1>
             <div className="flex flex-col gap-0">
@@ -55,10 +57,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-10 ">
+      <div className="flex mt-0">
         <div className="w-1/2 ">
           <div>
-            {" "}
             <svg
               width="72"
               height="30"
@@ -90,8 +91,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-1/2 flex items-center justify-between">
-          <div>© ochi design 2024. Legal Terms</div>
-          <div>Website by Obys</div>
+          <div>Sadhvi Kesarwani 2025.</div>
+          <div>Cloning Just for Learning Purpose.</div>
         </div>
       </div>
     </div>

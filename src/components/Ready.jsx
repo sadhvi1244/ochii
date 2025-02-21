@@ -9,8 +9,8 @@ const Ready = () => {
   }, []);
 
   return (
-    <div className="w-full relative min-h-screen sm:h-screen xm:h-screen text-zinc-900 bg-green-500">
-      <div className="flex flex-col justify-center items-center pt-[10vw] -mb-[1vw] uppercase text-[20vw] sm:text-[12vw] xm:text-[12vw] min-text-[12vw] leading-[0.72] font-['Founders_Grotesk_X_Condensed'] font-medium text-center">
+    <div className="w-full relative rounded-tl-3xl rounded-tr-3xl min-h-screen sm:h-screen xm:h-screen text-zinc-900 bg-green-500">
+      <div className="flex flex-col justify-center items-center pt-[9vw] -mb-[2vw] uppercase text-[20vw] sm:text-[12vw] xm:text-[12vw] min-text-[12vw] leading-[0.72] font-['Founders_Grotesk_X_Condensed'] font-medium text-center">
         <h1 className="">Ready </h1>
         <h1 className="">To Start</h1>
         <h1 className="">The Project</h1>

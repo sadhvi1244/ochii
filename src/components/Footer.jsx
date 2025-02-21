@@ -7,7 +7,8 @@ const Footer = () => {
     <div
       data-scroll
       data-scroll-section
-      className="relative  rounded-tl-3xl rounded-tr-3xl px-[3.922vw] py-20 w-full  bg-zinc-800 z-10 overflow-hidden"
+      data-scroll-speed="-.2"
+      className="relative text-zinc-100 rounded-tl-3xl rounded-tl-3xl rounded-tr-3xl rounded-tr-3xl px-[3.922vw] py-20 w-full  bg-zinc-900 z-10 overflow-hidden"
     >
       <div className="flex items-start  justify-between">
         <div className="w-1/2 h-screen   flex flex-col justify-between">

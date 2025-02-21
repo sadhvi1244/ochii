@@ -1,16 +1,28 @@
+import { motion } from "framer-motion";
 import React, { useDebugValue } from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
 
 const LandingPage = () => {
+  motion;
   return (
-    <div className="w-full h-screen bg-zinc-900 pt-1">
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed="-.3"
+      className="w-full h-screen bg-zinc-900 pt-1"
+    >
       <div className="textstructure mt-52 px-20">
         {["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
           return (
             <div className="masker">
               <div className="w-fit flex items-end overflow-hidden ">
                 {index === 1 && (
-                  <div className="mr-[1vw] w-[8vw] rounded-md h-[5vw] -top-[0.9vw] relative bg-green-500 "></div>
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: "9vw" }}
+                    transition={{ ease: [0.45, 0, 0.55, 1], duration: 1 }}
+                    className="mr-[1vw] w-[8vw] rounded-md h-[5vw] -top-[0.9vw] relative bg-green-500 "
+                  ></motion.div>
                 )}
                 <h1 className=" pt-[2vw] -mb-[1vw] uppercase text-[8vw] leading-[0.72] font-['Founders_Grotesk_X_Condensed'] font-medium">
                   {item}
@@ -20,7 +32,7 @@ const LandingPage = () => {
           );
         })}
       </div>
-      <div className="border-t-[1px] border-zinc-800 mt-28 flex justify-between items-center py-5 px-20 gap-5">
+      <div className="border-t-[1px] border-zinc-800 mt-20 flex justify-between items-center py-5 px-20 gap-5">
         {[
           "For public and private companies",
           "From the first pitch to IPO",

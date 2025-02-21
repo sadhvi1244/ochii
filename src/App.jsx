@@ -2,6 +2,7 @@ import LandingPage from "./components/LandingPage";
 import Navbar from "./components/Navbar";
 import Marquee from "./components/Marquee";
 import About from "./components/About";
+import Eyes from "./components/Eyes";
 import Features from "./components/Features";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
@@ -12,11 +13,12 @@ const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
 
   return (
-    <div className="w-full min-h-screen bg-zinc-700 text-white ">
+    <div className="w-full min-h-screen bg-zinc-900 text-white ">
       <Navbar />
       <LandingPage />
       <Marquee />
       <About />
+      <Eyes />
       <Features />
       <Cards />
       <Ready />

@@ -5,7 +5,7 @@ const Cards = () => {
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed="-.7"
+      data-scroll-speed="-.6"
       className=" h-screen w-full flex flex-col md:flex-row gap-5 items-center px-[3.922vw] relative "
     >
       <div className="cardcontainer w-full md:w-1/2 h-[55vh]">

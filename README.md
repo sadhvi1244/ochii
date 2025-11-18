@@ -2,6 +2,7 @@
 
 A visually stunning and interactive clone of the Ochi Design website, built using modern web technologies and animations to enhance the user experience.
 
+![JobProtal01 Preview](https://res.cloudinary.com/dgkhbg0wc/image/upload/v1763463780/Screenshot_2025-11-18_163237_s0rlxz.png)
 ## Features
 
 - **Animations:** Smooth and engaging animations powered by Framer Motion and GSAP.
@@ -51,11 +52,6 @@ To run this project locally, follow these steps:
 - **Animations:** Implemented complex animations using Framer Motion and GSAP.
 - **Responsiveness:** Enhanced my skills in designing layouts that adapt seamlessly across devices.
 - **Attention to Detail:** Focused on replicating micro-interactions and hover effects to match the original Ochi Design website.
-
-## Demo Video
-
-You can watch the demo video of the project here:
-[![Video Title](https://img.shields.io/badge/Download-Video-blue)](https://github.com/your-username/your-repo/raw/main/path/to/video.mp4)
 
 
 ## 🚀 About Me
